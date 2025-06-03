@@ -1,29 +1,28 @@
 <template>
   <header class="flex flex-row w-full bg-gradient-to-r from-blue-900 via-blue-950 to-blue-900 text-white shadow-md py-4 px-6 max-sm:justify-between max-sm:relative">
     <div class="basis-1/4 flex items-center justify-start px-4 max-sm:basis-auto">
-      <img src="assets/image/arizonalogo.jpg" class="w-20 h-20 rounded-full shadow-lg bg-transparent" />
+      <img src="assets/image/arizonalogo.jpg" class="w-16 h-16 bg-transparent rounded-full ">
     </div>
     <div class="basis-1/4 max-sm:basis-auto"> 
     </div>
-    <nav class="basis-1/2 flex flex-row items-center justify-end px-4 gap-4 max-sm:basis-auto max-sm:absolute max-sm:top-full max-sm:w-full
-    max-sm:justify-center max-sm:flex-col max-sm:gap-0 max-sm:bg-white max-sm:text-center max-sm:w-full max-sm:max-w-full max-sm:box-border">
-      <NuxtLink to="/" class="my-auto p-2 hover:bg-blue-700 hover:text-gray max-sm:w-full max-sm:border-b-2 max-sm:border-black max sm:text-center">Home</NuxtLink>
-      <div class="relative group my-auto p-2 hover:bg-blue-700 hover:text-gray max-sm:w-full max-sm:border-b-2 max-sm:border-black max-sm:text-center">Labs
+    <nav class="basis-1/2 flex flex-row items-center justify-end px-8 gap-4 max-sm:basis-auto max-sm:absolute max-sm:top-full max-sm:w-full
+    max-sm:justify-center max-sm:flex-col max-sm:gap-0 max-sm:bg-white max-sm:px-0">
+      <NuxtLink to="/" class="my-auto p-2 hover:bg-gray-500 hover:text-white max-sm:w-full max-sm:border-b-2 max-sm:border-black max-sm:text-center">Home</NuxtLink>
+      <div class="my-auto p-2 hover:bg-gray-500 hover:text-white max-sm:w-full max-sm:text-center max-sm:0 max-sm:pb-0">Labs
   
-        <div class="absolute left-0 top-full hidden group-hover:flex flex-col bg-white text-black text-center z-10 
-    max-sm:static max-sm:flex max-sm:w-full max-sm:max-w-full max-sm:box-border max-sm:bg-red-100 max-sm:border-t-2 max-sm:border-black">
+        <div class="flex flex-col absolute top-full bg-white text-black w-56 text-center max-sm:relative max-sm:w-full maxs-sm-red-100">
 
-    <NuxtLink to="/login" class="p-2 border-b border-black hover:bg-blue-500 hover:text-white w-full text-center">Lab3</NuxtLink>
-    <NuxtLink to="/login" class="p-2 border-b border-black hover:bg-blue-500 hover:text-white w-full text-center">Lab4</NuxtLink>
-    <NuxtLink to="/login" class="p-2 border-b border-black hover:bg-blue-500 hover:text-white w-full text-center">Lab5</NuxtLink>
-    <NuxtLink to="/login" class="p-2 hover:bg-blue-500 hover:text-white max-sm:w-full">Lab6</NuxtLink>
+    <NuxtLink to="/login" class="my-auto p-2 border-b-2 border-black hover:bg-gray-500 hover-text-white max-sm:w-full max-sm:border-t-2 max sm:text-center">Lab3</NuxtLink>
+    <NuxtLink to="/login" class="my-auto p-2 border-b-2 border-black hover:bg-gray-500 hover-text-white max-sm:w-full sm:text-center">Lab4</NuxtLink>
+    <NuxtLink to="/login" class="my-auto p-2 border-b-2 border-black hover:bg-gray-500 hover-text-white max-sm:w-full sm:text-center">Lab5</NuxtLink>
+    <NuxtLink to="/login" class="my-auto p-2 border-b-2 border-black hover:bg-gray-500 hover-text-white max-sm:w-full sm:text-center max-sm:border-black max-sm:text-center">Lab6</NuxtLink>
         </div>
       </div>
 
 
   
-      <NuxtLink to="login" class="my-auto p-2 hover:bg-blue-700 hover:text-gray max-sm:w-full max-sm:border-b-2 max-sm:border-black max sm:text-center">Login</NuxtLink>
-      <NuxtLink to="logout" class="my-auto p-2 hover:bg-blue-700 hover:text-gray max-sm:w-full max-sm:border-b-2 max-sm:border-black max sm:text-center">Logout</NuxtLink>
+      <NuxtLink to="/login" class="my-auto p-2 hover:bg-blue-700 hover:text-gray max-sm:w-full max-sm:border-b-2 max-sm:border-black max sm:text-center">Login</NuxtLink>
+      <NuxtLink to="/logout" class="my-auto p-2 hover:bg-blue-700 hover:text-gray max-sm:w-full max-sm:border-b-2 max-sm:border-black max sm:text-center">Logout</NuxtLink>
     </nav>
   </header> 
 
