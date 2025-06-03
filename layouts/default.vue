@@ -30,10 +30,10 @@
     </div>
   </div>
 
-  <NuxtLink to="/login" class="my-auto p-2 rounded hover:bg-slate-700 text-white max-sm:w-full max-sm:text-center max-sm:px-0 max-sm:pb-0">
+  <NuxtLink to="/login" @click="burger = false" class="my-auto p-2 rounded hover:bg-slate-700 text-white max-sm:w-full max-sm:text-center max-sm:px-0 max-sm:pb-0">
     LogIn
   </NuxtLink>
-  <NuxtLink to="/logout" class="my-auto p-2 rounded hover:bg-slate-700 text-white max-sm:w-full max-sm:text-center max-sm:px-0 max-sm:pb-0">
+  <NuxtLink to="/logout" @click="burger = false" class="my-auto p-2 rounded hover:bg-slate-700 text-white max-sm:w-full max-sm:text-center max-sm:px-0 max-sm:pb-0">
     LogOut
   </NuxtLink>
     </nav>
