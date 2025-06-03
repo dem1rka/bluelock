@@ -1,14 +1,11 @@
 
 <template>
-  <header class="flex w-full items-center justify-between bg-gray-900 shadow-sm py-2 sticky top-0 z-50 text-gray-500">
-      <div class="basis-1/4 flex items-center justify-start px-8 min-w-40 max-sm:basis-auto"></div>
-        <img src="assets/image/arizonalogo.jpg"
-     class="w-16 h-16 bg-white rounded-full p-1 shadow-md hover:scale-110 transition-transform"
-     alt="Logo" />
+  <header class="flex flex-row w-full bg-gradient-to-r from-blue-900 via-blue-950 to-blue-900 text-white shadow-md py-4 px-6 max-sm:justify-between max-sm:relative">
+    <div class="basis-1/4 flex items-center justify-start px-4 max-sm:basis-auto">
+      <img src="assets/image/arizonalogo.jpg" class="w-16 h-16 bg-transparent rounded-full" alt="Logo"></div>
 
     <div class="basis-1/4 max-sm:basis-auto"></div>
-      <nav
-  :class="{
+      <nav :class="{
     'basis-1/2 flex flex-row items-center justify-end px-2 gap-2': !burger || burger,
     'max-sm:basis-auto max-sm:absolute max-sm:top-full max-sm:w-full max-sm:justify-center max-sm:flex-col max-sm:gap-0 max-sm:bg-slate-800 max-sm:px-0': burger,
     'max-sm:hidden': !burger,}"
