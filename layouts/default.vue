@@ -5,10 +5,10 @@
     </div>
     <div class="basis-1/4"></div>
     <nav class="basis-1/2 flex flex-row items-center justify-end px-4 gap-4">
-      <NuxtLink to="/" class="px-4 py-2 rounded hover:bg-blue-700 hover:text-blue-100 transition">Home</NuxtLink>
-      <NuxtLink to="Lab3" class="px-4 py-2 rounded hover:bg-blue-700 hover:text-blue-100 transition">Lab3</NuxtLink>
-      <NuxtLink to="login" class="px-4 py-2 rounded hover:bg-blue-700 hover:text-blue-100 transition">Login</NuxtLink>
-      <NuxtLink to="logout" class="px-4 py-2 rounded hover:bg-blue-700 hover:text-blue-100 transition">Logout</NuxtLink>
+      <NuxtLink to="/" class="my-auto p-2 hover: bg-blue-700 hover:text-blue-100 max-sm:w-full max-sm:border-b-2 max-sm:border-black max sm:text-center">Home</NuxtLink>
+      <NuxtLink to="Lab3" class="my-auto p-2 hover: bg-blue-700 hover:text-blue-100 max-sm:w-full max-sm:border-b-2 max-sm:border-black max sm:text-center">Lab3</NuxtLink>
+      <NuxtLink to="login" class="my-auto p-2 hover: bg-blue-700 hover:text-blue-100 max-sm:w-full max-sm:border-b-2 max-sm:border-black max sm:text-center">Login</NuxtLink>
+      <NuxtLink to="logout" class="my-auto p-2 hover: bg-blue-700 hover:text-blue-100 max-sm:w-full max-sm:border-b-2 max-sm:border-black max sm:text-center">Logout</NuxtLink>
     </nav>
   </header> 
 
@@ -18,7 +18,7 @@
 
    <footer class="flex flex-row w-full bg-gradient-to-r from-blue-900 via-blue-950 to-blue-900 text-white shadow-md justify-center gap-4 py-4 px-6">
     <a href="https://www.youtube.com"><img src="assets/image/youtube.png" class=" w-16 h-16"></a>
-    <a href="web.telegram.org"><img src="assets/image/telegram.png" class=" w-16 h-16"></a>
+    <a href="https://web.telegram.org"><img src="assets/image/telegram.png" class=" w-16 h-16"></a>
     <a href="https://www.instagram.com"><img src="assets/image/instagram.png" class=" w-16 h-16"></a>
    </footer>
 </template> 
