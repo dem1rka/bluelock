@@ -3,10 +3,18 @@
     <div class="basis-1/4 flex items-center justify-start px-4">
       <img src="assets/image/arizonalogo.jpg" class="w-20 h-20 rounded-full shadow-lg" />
     </div>
-    <div class="basis-1/4"></div>
+    <div class="basis-1/4"> 
+    </div>
     <nav class="basis-1/2 flex flex-row items-center justify-end px-4 gap-4">
       <NuxtLink to="/" class="my-auto p-2 hover: bg-blue-700 hover:text-blue-100 max-sm:w-full max-sm:border-b-2 max-sm:border-black max sm:text-center">Home</NuxtLink>
-      <NuxtLink to="Lab3" class="my-auto p-2 hover: bg-blue-700 hover:text-blue-100 max-sm:w-full max-sm:border-b-2 max-sm:border-black max sm:text-center">Lab3</NuxtLink>
+      <div class="my-auto p-2 hover:bg-blue-700 hover:text-blue-100 max-sm:w-full max-sm:border-b-2 max-sm:border-black max sm:text-center">Labs
+        <div class="flex flex-col absolute top-full bg-white text-black w-56 text-center max-sm:relative max-sm:w-full max-sm:bg-red-100">
+          <Nuxtlink to="/login" class="my-auto p-2 border-b-2 border-black hover:bg-blue-500 hover:text-white max-sm:w-full max-sm:border-t-2 max-sm:text-center">Lab3</Nuxtlink>
+          <Nuxtlink to="/login" class="my-auto p-2 border-b-2 border-black hover:bg-blue-500 hover:text-white max-sm:w-full max-sm:text-center">Lab4</Nuxtlink>
+          <Nuxtlink to="/login" class="my-auto p-2 border-b-2 border-black hover:bg-blue-500 hover:text-white max-sm:w-full max-sm:text-center">Lab5</Nuxtlink>
+          <Nuxtlink to="/login" class="my-auto p-2 border-b-2 border-black hover:bg-blue-500 hover:text-white max-sm:w-full max-sm:border-black max-sm:text-center">Lab6</Nuxtlink>
+        </div>
+      </div>  
       <NuxtLink to="login" class="my-auto p-2 hover: bg-blue-700 hover:text-blue-100 max-sm:w-full max-sm:border-b-2 max-sm:border-black max sm:text-center">Login</NuxtLink>
       <NuxtLink to="logout" class="my-auto p-2 hover: bg-blue-700 hover:text-blue-100 max-sm:w-full max-sm:border-b-2 max-sm:border-black max sm:text-center">Logout</NuxtLink>
     </nav>
