@@ -1,11 +1,12 @@
 <template>
-  <header class="flex flex-row w-full bg-gradient-to-r from-blue-900 via-blue-950 to-blue-900 text-white shadow-md py-4 px-6">
-    <div class="basis-1/4 flex items-center justify-start px-4">
-      <img src="assets/image/arizonalogo.jpg" class="w-20 h-20 rounded-full shadow-lg" />
+  <header class="flex flex-row w-full bg-gradient-to-r from-blue-900 via-blue-950 to-blue-900 text-white shadow-md py-4 px-6 max-sm:justify-between max-sm:relative">
+    <div class="basis-1/4 flex items-center justify-start px-4 max-sm:basis-auto">
+      <img src="assets/image/arizonalogo.jpg" class="w-20 h-20 rounded-full shadow-lg bg-transparent" />
     </div>
-    <div class="basis-1/4"> 
+    <div class="basis-1/4 max-sm:basis-auto"> 
     </div>
-    <nav class="basis-1/2 flex flex-row items-center justify-end px-4 gap-4">
+    <nav class="basis-1/2 flex flex-row items-center justify-end px-4 gap-4 max-sm:basis-auto max-sm:absolute max-sm:top-full max-sm:w-full
+    max-sm:justify-center max-sm:flex-col max-sm:gap-0 max-sm:bg-white max-sm:px-0">
       <NuxtLink to="/" class="my-auto p-2 hover: bg-blue-700 hover:text-blue-100 max-sm:w-full max-sm:border-b-2 max-sm:border-black max sm:text-center">Home</NuxtLink>
       <div class="relative group my-auto p-2 hover:bg-blue-700 hover:text-blue-100 max-sm:w-full max-sm:border-b-2 max-sm:border-black max-sm:text-center">Labs
 <!-- Submenu -->
