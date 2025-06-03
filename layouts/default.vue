@@ -6,8 +6,8 @@
     <div class="basis-1/4 max-sm:basis-auto"> 
     </div>
     <nav class="basis-1/2 flex flex-row items-center justify-end px-4 gap-4 max-sm:basis-auto max-sm:absolute max-sm:top-full max-sm:w-full
-    max-sm:justify-center max-sm:flex-col max-sm:gap-0 max-sm:bg-white max-sm:px-0">
-      <NuxtLink to="/" class="my-auto p-2 hover: bg-blue-700 hover:text-blue-100 max-sm:w-full max-sm:border-b-2 max-sm:border-black max sm:text-center">Home</NuxtLink>
+    max-sm:justify-center max-sm:flex-col max-sm:gap-0 max-sm:bg-white max-sm:text-center">
+      <NuxtLink to="/" class="my-auto p-2 hover:bg-blue-700 hover:text-blue-100 max-sm:w-full max-sm:border-b-2 max-sm:border-black max sm:text-center">Home</NuxtLink>
       <div class="relative group my-auto p-2 hover:bg-blue-700 hover:text-blue-100 max-sm:w-full max-sm:border-b-2 max-sm:border-black max-sm:text-center">Labs
   
         <div class="absolute left-0 top-full hidden group-hover:flex flex-col bg-white text-black w-56 text-center z-10
@@ -21,8 +21,8 @@
 
 
   
-      <NuxtLink to="login" class="my-auto p-2 hover: bg-blue-700 hover:text-blue-100 max-sm:w-full max-sm:border-b-2 max-sm:border-black max sm:text-center">Login</NuxtLink>
-      <NuxtLink to="logout" class="my-auto p-2 hover: bg-blue-700 hover:text-blue-100 max-sm:w-full max-sm:border-b-2 max-sm:border-black max sm:text-center">Logout</NuxtLink>
+      <NuxtLink to="login" class="my-auto p-2 hover:bg-blue-700 hover:text-blue-100 max-sm:w-full max-sm:border-b-2 max-sm:border-black max sm:text-center">Login</NuxtLink>
+      <NuxtLink to="logout" class="my-auto p-2 hover:bg-blue-700 hover:text-blue-100 max-sm:w-full max-sm:border-b-2 max-sm:border-black max sm:text-center">Logout</NuxtLink>
     </nav>
   </header> 
 
