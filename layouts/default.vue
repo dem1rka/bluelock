@@ -7,22 +7,23 @@
     </div>
     <nav class="basis-1/2 flex flex-row items-center justify-end px-4 gap-4 max-sm:basis-auto max-sm:absolute max-sm:top-full max-sm:w-full
     max-sm:justify-center max-sm:flex-col max-sm:gap-0 max-sm:bg-white max-sm:text-center max-sm:w-full max-sm:max-w-full max-sm:box-border">
-      <NuxtLink to="/" class="my-auto p-2 hover:bg-blue-700 hover:text-blue-100 max-sm:w-full max-sm:border-b-2 max-sm:border-black max sm:text-center">Home</NuxtLink>
-      <div class="relative group my-auto p-2 hover:bg-blue-700 hover:text-blue-100 max-sm:w-full max-sm:border-b-2 max-sm:border-black max-sm:text-center">Labs
+      <NuxtLink to="/" class="my-auto p-2 hover:bg-blue-700 hover:text-gray max-sm:w-full max-sm:border-b-2 max-sm:border-black max sm:text-center">Home</NuxtLink>
+      <div class="relative group my-auto p-2 hover:bg-blue-700 hover:text-gray max-sm:w-full max-sm:border-b-2 max-sm:border-black max-sm:text-center">Labs
   
-        <div class="absolute left-0 top-full hidden group-hover:flex flex-col bg-white text-black w-56 text-center z-10 
-        max-sm:static max-sm:flex max-sm:w-full max-sm:max-w-full max-sm:box-border max-sm:px-4 max-sm:bg-red-100 max-sm:border-t-2 max-sm:border-black">
-    <NuxtLink to="/login" class="p-2 border-b border-black hover:bg-blue-500 hover:text-white max-sm:w-full">Lab3</NuxtLink>
-    <NuxtLink to="/login" class="p-2 border-b border-black hover:bg-blue-500 hover:text-white max-sm:w-full">Lab4</NuxtLink>
-    <NuxtLink to="/login" class="p-2 border-b border-black hover:bg-blue-500 hover:text-white max-sm:w-full">Lab5</NuxtLink>
+        <div class="absolute left-0 top-full hidden group-hover:flex flex-col bg-white text-black text-center z-10 
+    max-sm:static max-sm:flex max-sm:w-full max-sm:max-w-full max-sm:box-border max-sm:bg-red-100 max-sm:border-t-2 max-sm:border-black">
+
+    <NuxtLink to="/login" class="p-2 border-b border-black hover:bg-blue-500 hover:text-white w-full text-center">Lab3</NuxtLink>
+    <NuxtLink to="/login" class="p-2 border-b border-black hover:bg-blue-500 hover:text-white w-full text-center">Lab4</NuxtLink>
+    <NuxtLink to="/login" class="p-2 border-b border-black hover:bg-blue-500 hover:text-white w-full text-center">Lab5</NuxtLink>
     <NuxtLink to="/login" class="p-2 hover:bg-blue-500 hover:text-white max-sm:w-full">Lab6</NuxtLink>
         </div>
       </div>
 
 
   
-      <NuxtLink to="login" class="my-auto p-2 hover:bg-blue-700 hover:text-blue-100 max-sm:w-full max-sm:border-b-2 max-sm:border-black max sm:text-center">Login</NuxtLink>
-      <NuxtLink to="logout" class="my-auto p-2 hover:bg-blue-700 hover:text-blue-100 max-sm:w-full max-sm:border-b-2 max-sm:border-black max sm:text-center">Logout</NuxtLink>
+      <NuxtLink to="login" class="my-auto p-2 hover:bg-blue-700 hover:text-gray max-sm:w-full max-sm:border-b-2 max-sm:border-black max sm:text-center">Login</NuxtLink>
+      <NuxtLink to="logout" class="my-auto p-2 hover:bg-blue-700 hover:text-gray max-sm:w-full max-sm:border-b-2 max-sm:border-black max sm:text-center">Logout</NuxtLink>
     </nav>
   </header> 
 
