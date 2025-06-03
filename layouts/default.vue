@@ -1,8 +1,11 @@
 
 <template>
-  <header class="flex flex-row w-full bg-gradient-to-r from-blue-900 via-blue-950 to-blue-900 text-white shadow-md py-4 px-6 max-sm:justify-between max-sm:relative">
-    <div class="basis-1/4 flex items-center justify-start px-4 max-sm:basis-auto">
-      <img src="assets/image/arizonalogo.jpg" class="w-16 h-16 bg-transparent rounded-full" alt="Logo"></div>
+ 
+
+  <header class="flex w-full items-center justify-between bg-blue-900 shadow-sm py-2 sticky top-0 z-50 text-gray-500">
+
+    <div class="basis-1/4 flex items-center justify-start px-8 min-w-40 max-sm:basis-auto">
+      <img src="assets/image/arizonalogo.jpg" class="w-16 h-16 bg-white rounded-full p-1 shadow-md hover:scale-110 transition-transform" alt="Logo"></div>
 
     <div class="basis-1/4 max-sm:basis-auto"></div>
       <nav :class="{
