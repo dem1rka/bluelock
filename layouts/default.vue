@@ -23,10 +23,10 @@
       class="flex flex-col absolute right-0 top-full bg-blue-800 text-white w-56 text-left shadow-lg rounded mt-1 z-40 max-sm:static max-sm:w-56 max-sm:mx-auto max-sm:mt-2"
       v-show="submenu"
     >
-      <NuxtLink to="/lab3" class="px-4 py-2 hover:bg-blue-700 transition">Lab3</NuxtLink>
-      <NuxtLink to="/lab4" class="px-4 py-2 hover:bg-blue-700 transition">Lab4</NuxtLink>
-      <NuxtLink to="/lab5" class="px-4 py-2 hover:bg-blue-700 transition">Lab5</NuxtLink>
-      <NuxtLink to="/lab6" class="px-4 py-2 hover:bg-blue-700 transition">Lab6</NuxtLink>
+      <NuxtLink to="/lab3" @click="burger = false" class="px-4 py-2 hover:bg-blue-700 transition">Lab3</NuxtLink>
+      <NuxtLink to="/lab4" @click="burger = false" class="px-4 py-2 hover:bg-blue-700 transition">Lab4</NuxtLink>
+      <NuxtLink to="/lab5" @click="burger = false" class="px-4 py-2 hover:bg-blue-700 transition">Lab5</NuxtLink>
+      <NuxtLink to="/lab6" @click="burger = false" class="px-4 py-2 hover:bg-blue-700 transition">Lab6</NuxtLink>
     </div>
   </div>
 
