@@ -59,14 +59,13 @@
   <slot />
 </main>
 
-    <footer class = "flex flex-row w-full bg-blue-950 border-t-2 border-black items-center justify-center px-4 py-2 gap-4">
+    <footer class = "flex flex-row w-full bg-blue-900 border-t-2 border-black items-center justify-center px-4 py-2 gap-4">
        <a href="https://www.youtube.com"><img src="assets/image/youtube.png" class=" w-16 h-16"></a>
       <a href="https://web.telegram.org"><img src="assets/image/telegram.png" class=" w-16 h-16"></a>
       <a href="https://www.instagram.com"><img src="assets/image/instagram.png" class=" w-16 h-16"></a>
     </footer>
-    <footer class="p-4 bg-blue-950">
+    <footer class="p-4 bg-blue-900">
   <div class="text-xs text-center">
-    <p>©Donpollo</p>
   </div>
 </footer>
 </template>
