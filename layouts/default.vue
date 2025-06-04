@@ -1,7 +1,5 @@
 
 <template>
- 
-
   <header class="flex w-full items-center justify-between bg-blue-900 shadow-sm py-2 sticky top-0 z-50 text-gray-500">
 
     <div class="basis-1/4 flex items-center justify-start px-8 min-w-40 max-sm:basis-auto">
@@ -46,6 +44,12 @@
   <span class="h-[3px] w-full bg-white"></span>
   <span class="h-[3px] w-full bg-white"></span>
   <span class="h-[3px] w-full bg-white"></span>
+</div>
+
+<div v-else class = "max-sm:flex max-sm:flex-col max-sm:mr-8 max-sm:justify-between max-sm:items-center max-sm:w-8 max-sm:h-6" @click = "switch_burger">
+<span class="h-[3px] w-full bg-white rotate-45 relative top-[9px]"></span>
+<span class="h-[3px] w-full bg-white opacity-0"></span>
+<span class="h-[3px] w-full bg-white relative bottom-3 rotate -[-45deg]"></span>
 </div>
 </header>
    
