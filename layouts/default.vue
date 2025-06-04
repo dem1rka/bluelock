@@ -47,9 +47,9 @@
 </div>
 
 <div v-else class = "max-sm:flex max-sm:flex-col max-sm:mr-8 max-sm:justify-between max-sm:items-center max-sm:w-8 max-sm:h-6" @click = "switch_burger">
- <span class="h-[3px] w-full bg-blue-950 rotate-45 relative top-[9px]"></span>
-  <span class="h-[3px] w-full bg-blue-950 opacity-0"></span>
-  <span class="h-[3px] w-full bg-blue-950 relative bottom-3 rotate-[-45deg]"></span>
+ <span class="h-[3px] w-full bg-white rotate-45 relative top-[9px]"></span>
+  <span class="h-[3px] w-full bg-white opacity-0"></span>
+  <span class="h-[3px] w-full bg-white relative bottom-3 rotate-[-45deg]"></span>
 </div>
 </header>
    
